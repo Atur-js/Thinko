@@ -1,0 +1,22 @@
+.container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gif {
+  position: fixed;
+  width: 300px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ce-message {
+  background-color: rgb(187, 113, 255) !important;
+}
+

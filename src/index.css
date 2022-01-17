@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+
+}
+
+.ce-message-bubble {
+  background-color: rgb(187, 113, 255) !important;
+}
+
+.ce-primary-button {
+  background-color: rgb(187, 113, 255) !important;
+}
+
+#ce-send-message-button {
+  background-color: rgb(187, 113, 255) !important;
+}
+
+.ce-chats-container {
+  text-align: left !important;
+  justify-content: left !important;
+  background-color: rgb(29, 28, 31) !important;
+}
+
+.ce-chat-feed-container {
+  background-color: rgb(29, 28, 31) !important;
+}
+
+.ce-message-date-text {
+  color: white !important;
+}
+
+.ce-settings {
+  background-color: rgb(29, 28, 31) !important;
+}
+
+.ce-chat-title-container {
+  background-color: rgb(76, 48, 133) !important;
+  border: none !important;
+}
+
+.ce-chat-title-text {
+  color: rgb(219, 181, 255) !important;
+  margin-bottom: 5px;
+}
+
+.ce-chat-subtitle-text {
+  color: rgb(219, 181, 255) !important;
+}
+
+.ce-chat-form-container {
+  background-color: rgb(29, 28, 31) !important;
+  color: white !important;
+}
+
+.ce-chats-container {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.quill {
+  color: white !important;
+  background-color: rgb(39, 25, 66) !important;
+  border: 1px solid rgb(39, 25, 66) !important;
+}
+
+#toolbar {
+  background-color: rgb(72, 53, 109) !important;
+  justify-content: space-between;
+}
+
+.ql-bold {
+  background-color: rgb(187, 113, 255) !important;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.ql-italic {
+  background-color: rgb(187, 113, 255) !important;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.ql-underline {
+  background-color: rgb(187, 113, 255) !important;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.ql-strike {
+  background-color: rgb(187, 113, 255) !important;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.ql-code {
+  background-color: rgb(187, 113, 255) !important;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.ql-link {
+  background-color: rgb(187, 113, 255) !important;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.anticon-paper-clip {
+  background-color: rgb(187, 113, 255) !important;
+  border-radius: 50%;
+}
+
+.ql-toolbar.ql-snow {
+  border: none !important;
+}
+
+.ql-container.ql-snow {
+  border: none !important;
+}
+
+div.ce-chat-card {
+  color: black !important;
+}
+
+.ce-chat-subtitle-message {
+  color: rgb(255, 255, 255) !important;
+  font-size: 13px !important;
+}
+
+.ce-active-chat-card {
+  background-color: rgb(187, 113, 255) !important;
+  color: white !important;
+}
+.ce-chats-container .ce-chat-title-text {
+  color: rgb(0, 0, 0) !important;
+}
+
+.ce-chat-subtitle-date {
+  color: white !important;
+  font-size: 9px !important;
+}
+
+.ce-input {
+  background-color: rgb(187, 113, 255) !important;
+  margin-bottom: 5px !important;
+}
+
+#ce-options-drop-down {
+  background-color: rgb(187, 113, 255) !important;
+  border-radius: 24px !important;
+  margin-top: 5px !important;
+}
+
+.ce-section-title-container {
+  background-color: rgb(187, 113, 255) !important;
+  border-radius: 24px !important;
+  margin-top: 5px !important;
+  border: none !important;
+}
+
+.ce-primary-button {
+  color: white !important;
+  border: none !important;
+}
+
+.ce-person-container {
+  color: white !important;
+}
+
+div {
+  border: none !important;
+}
+
+.ce-chat-list {
+  background-color: rgb(76, 48, 133) !important;
+}
+
+.ce-chat-list-mobile-option {
+  background-color: rgb(76, 48, 133) !important;
+  left: 0 !important;
+  top: 0 !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+span.anticon.anticon-menu {
+  position: relative;
+  top: 32px !important;
+  border: none !important;
+}
+
+.ce-chat-settings-mobile-option {
+  background-color: rgb(76, 48, 133) !important;
+  right: 0 !important;
+  top: 0 !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+span.anticon.anticon-setting {
+  position: relative;
+  top: 32px !important;
+}
+
+div.ce-chat-list-mobile-option {
+  border-right: none !important;
+  box-sizing: none !important;
+}
+
+div.ce-settings-container {
+  color: black !important;
+}
+
+@media screen and (max-width: 600px) {
+  div.ce-chats-container {
+    max-width: 100% !important;
+  }
+}
+
+.ce-chat-list {
+  overflow: auto !important;
+  font-size: 0.7rem !important;
+  transition-timing-function: linear !important;
+}
+
+@media screen and (max-width: 576px) {
+  div.ce-chat-list {
+    width: 50% !important;
+    position: relative !important;
+    z-index: 100 !important;
+  }
+  div#ce-ice-breaker {
+  display: block !important;
+}
+}
+
+@media screen and (min-width: 576px) {
+  div.ce-chat-list {
+    width: 25% !important;
+    position: fixed !important;
+    z-index: 1000 !important;
+  }
+}
+
+.ce-chat-form-container div:nth-child(3n) {
+  font-size: 1rem;
+
+}
+
+#ce-ice-breaker {
+  display: block !important;
+}
+
+/* #new-chat-plus-button {
+  z-index: 1999 !important;
+  cursor: pointer !important;
+  text-align: left !important;
+  margin-left: 50px !important;
+} */
+

@@ -1,0 +1,63 @@
+.loginPage {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  border: none;
+  background-color: rgb(244, 243, 252);
+  justify-content: center;
+  align-items: center;
+  padding: 20px 35px;
+  border-radius: 10px;
+}
+
+.loginCard h2 {
+  color: rgb(10, 9, 80);
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  align-items: center;
+  margin-left: 22%;
+}
+.loginCard h4 {
+  color: rgb(3, 93, 134);
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  align-items: center;
+  margin-left: 21%;
+}
+
+.logoImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(56, 104, 206);
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: rgb(85, 223, 67);
+  color: black;
+}
+
+.button img {
+  width: 30px;
+  margin-right: 10px;
+}
+

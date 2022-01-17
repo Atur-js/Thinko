@@ -1,0 +1,32 @@
+.container {
+  height: 50px;
+  background: rgb(153, 85, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.name {
+  color: rgb(237, 217, 255);
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout {
+  background: rgb(228, 103, 92);
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.logout:hover {
+  background: rgb(235, 131, 131);
+  color: black;
+}
